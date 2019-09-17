@@ -3,7 +3,7 @@ h1 {
 }
 
 body {
-	background-color: #5EDF59
+	background-color: #6B8E23
 }
 
 progress {
@@ -15,3 +15,20 @@ progress:indeterminate {
   background-color: lightgray;
   box-shadow: 0 0 2px 1px red;
 }
+  display: table;
+}
+
+div.form-example {
+    display: table-row;
+}
+
+label, input {
+    display: table-cell;
+    margin-bottom: 10px;
+}
+
+label {
+    padding-right: 10px;
+}
+form.form-example {
+ 
